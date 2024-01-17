@@ -2,8 +2,15 @@
 @import "../node_modules/animate.css/animate.min.css";
 @import "../node_modules/aos/dist/aos.css";
 
+
+
 .logo{
     font-family: 'Dancing Script', cursive;
+}
+
+.nav-menu{
+    background-color: hsla(0, 0%, 6%, .2);
+    backdrop-filter: blur(16px);
 }
 
 .home-bg{

@@ -9,7 +9,7 @@ const FooterBread = () => {
   },[]);
 
   return (
-    <div className=" bg-black p-4 flex flex-col">
+    <div className=" max-w-[1980px] m-auto bg-black p-4 lg:py-10 flex flex-col">
       <div className=" relative mb-10">
         <div>
           <h1 className=" text-yellow-600 text-lg">Bakery</h1>
@@ -19,9 +19,9 @@ const FooterBread = () => {
         </div>
         <img data-aos="flip-right"
           className=" absolute top-8 right-10 w-20"
-          src="src/img/bread-4.png"
+          src="img/bread-4.png"
         ></img>
-        <img data-aos="flip-right" className=" absolute top-[220px] left-[120px] w-20 rotate-90" src="src/img/bread-3.png"></img>
+        <img data-aos="flip-right" className=" absolute top-[220px] left-[120px] w-20 rotate-90" src="img/bread-3.png"></img>
       </div>
       <div className=" flex lg:flex-col justify-between mb-10">
         <div className=" lg:mb-10">

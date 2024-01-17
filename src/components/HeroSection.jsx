@@ -1,15 +1,11 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <div id="home">
-    <img className="home-bg" src="src/img/home-bg.jpg"></img>
-      <div className=" flex flex-col lg:flex-row lg:justify-center lg:gap-52 items-center pt-20">
+    <div className=" relative max-w-[1980px]" id="home">
+      <img className=" w-full h-screen object-cover scale-x-[-1]" src="img/home-bg.jpg"></img>
+      <div className=" absolute top-0 left-0 w-full h-screen flex flex-col lg:flex-row md:flex-row md:justify-center md:gap-10 lg:justify-center lg:gap-52 items-center pt-20">
         <div className=" flex flex-col items-center animate__animated animate__slideInLeft">
           <h1 className="text-5xl lg:text-7xl font-bold mb-4 text-white select-none">
             Select The Best <br></br> Quality Breads
@@ -18,18 +14,18 @@ const HeroSection = () => {
             Select Breads
           </button>
         </div>
-        <div className=" relative z-[-1]">
+        <div className=" relative">
           <img
             className=" w-12 absolute top-10 left-0 animate__animated animate__bounce"
-            src="src/img/bread-1.png"
+            src="img/bread-1.png"
           ></img>
           <img
-            className=" w-72 lg:w-96 rotate-45 animate__animated animate__headShake"
-            src="src/img/home-bread.png"
+            className=" w-72 lg:w-96 rotate-12 animate__animated animate__fadeIn"
+            src="img/home-bread.png"
           ></img>
         </div>
       </div>
-      <div className=" flex mt-5 justify-between items-center lg:justify-around animate__animated animate__fadeIn">
+      <div className=" container absolute bottom-0 flex mt-5 justify-between items-center animate__animated animate__fadeIn">
         <div className=" flex gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"

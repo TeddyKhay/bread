@@ -9,11 +9,11 @@ const Favorites = ({ name, price, image }) => {
 
 
   return (
-      <div data-aos="zoom-in" className=" mt-10">
-      <div className=" -mb-[100px]">
-      <img className=" w-40" src={image}></img>
+      <div data-aos="zoom-in-up" className=" flex flex-col items-center mt-10 w-1/3 md:w-1/4 lg:w-1/4">
+      <div className=" -mb-[80px] z-10">
+      <img data-aos="ease-in" className=" w-40" src={image}></img>
       </div>
-      <div className=" bg-neutral-900 pt-[50px]">
+      <div className=" bg-neutral-900 pt-[50px] w-40">
           <div className=" flex justify-between items-center p-2 pt-[50px]">
             <div>
               <h4 className=" text-yellow-600 text-[1.2rem]">{name}</h4>
